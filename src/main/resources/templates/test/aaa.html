@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+	<h1 th:text="${msg}"></h1>
+	<p th:text="${mag}"></p>
+	
+	<table>
+		<tr th:each="customer112 : ${customers}">
+		    <td th:text="${customer112.id}"></td>
+		    <td th:text="${customer112.lastName}"></td>
+		    <td th:text="${customer112.firstName}"></td>
+		</tr>
+	</table>
+
+</body>
+</html>
