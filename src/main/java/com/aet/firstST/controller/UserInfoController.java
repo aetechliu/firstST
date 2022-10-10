@@ -35,7 +35,7 @@ public class UserInfoController {
     private UserInfoService userInfoService;
 
     /**
-     * ユーザー情報一覧画面を表示
+     * ユーザー情報一覧画面を表示 /user/listはURL　
      * @param model Model
      * @return ユーザー情報一覧画面
      * 
