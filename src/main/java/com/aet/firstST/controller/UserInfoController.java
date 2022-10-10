@@ -36,7 +36,7 @@ public class UserInfoController {
 
     /**
      * ユーザー情報一覧画面を表示 delete the comment wo you laile from xs ++++---
-     *      * xs103 m
+     *      * xs103 m xs113
      * @param model Model
      * @return ユーザー情報一覧画面
      * 
