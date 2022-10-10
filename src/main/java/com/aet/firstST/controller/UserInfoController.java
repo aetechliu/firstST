@@ -40,15 +40,6 @@ public class UserInfoController {
      * @return ユーザー情報一覧画面
      * 
      */
-    @GetMapping(value = "/")
-    public String index(Model model) {
-    	
-        List<UserInfo> userList = userInfoService.findAll();
-        model.addAttribute("userlist123", userList);
-        model.addAttribute("userSearchRequest", new UserSearchRequest());
-        return "user/search";
-    }
-    
     @GetMapping(value = "/user/list")
     public String displayList(Model model) {
     	
