@@ -35,7 +35,7 @@ public class UserInfoController {
     private UserInfoService userInfoService;
 
     /**
-     * ユーザー情報一覧画面を表示 delete the co
+     * ユーザー情報一覧画面を表示 delete the comment wo you laile from xs ++++---
      * @param model Model
      * @return ユーザー情報一覧画面
      * 
