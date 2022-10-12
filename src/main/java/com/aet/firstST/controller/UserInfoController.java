@@ -23,7 +23,7 @@ import com.aet.firstST.entity.UserInfo;
 import com.aet.firstST.service.UserInfoService;
 
 /**
- * ユーザー情報 Controller
+ * ユーザー情報 Controller qq
  */
 @Controller
 public class UserInfoController {
